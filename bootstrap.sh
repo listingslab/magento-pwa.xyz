@@ -2,10 +2,10 @@
 
 # Use single quotes instead of double quotes to make it work with special-character passwords
 PASSWORD='abcd1234'
-PROJECTFOLDER='magepwa'
+PROJECTFOLDER='magento-pwa.xyz'
 
 # create project folder
-sudo mkdir "/var/www/html/${PROJECTFOLDER}"
+# sudo mkdir "/var/www/html/${PROJECTFOLDER}"
 
 # update / upgrade
 sudo apt-get update
@@ -33,8 +33,8 @@ sudo apt-get -y install phpmyadmin
 # setup hosts file
 VHOST=$(cat <<EOF
 <VirtualHost *:80>
-    DocumentRoot "/var/www/html/"
-    <Directory "/var/www/html/">
+    DocumentRoot "/var/www/html/magento-pwa.xyz"
+    <Directory "/var/www/html/magento-pwa.xyz">
         AllowOverride All
         Require all granted
     </Directory>
