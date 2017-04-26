@@ -1,5 +1,5 @@
 ![alt text](http://listingslab.com/wp-content/uploads/2017/03/cropped-android-chrome-384x384.png "Listingslab Beaker Logo")
-#  www.magento-pwa.xyz vs 1.0.1
+#  magento-pwa.xyz vs 1.0.2
 
 ## Developer Installation
 
