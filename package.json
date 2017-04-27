@@ -1,0 +1,18 @@
+{
+  "name": "magento-pwa.xyz",
+  "version": "1.0.2",
+  "description": "Progressive Web App for Magento",
+  "main": "src/main.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listingslab/magento-pwa.xyz.git"
+  },
+  "keywords": [
+    "magento",
+    "pwa",
+    "aligent"
+  ],
+  "author": "Chris Dorward"
+}
