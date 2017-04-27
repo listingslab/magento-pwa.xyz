@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magento PWA</title>
+
+    <script type="text/javascript" id="config">
+      globalData= {
+        "app-namespace": "magento-pwa",
+        "version": "1.1.9"
+      };
+    </script>
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  </head>
+  <body>
+    <div id="magepwa">
+      <header>
+        <a href="?home=james">
+          <img
+            class="magepwa-logo"
+            src="images/atari-stripes.png"
+            width="75"
+            height="75" />
+        <h1>Magento PWA</h1></a>
+      </header>
+      <div id="content"></div>
+    </div>
+
+    <footer>
+      <small>
+        <script type="text/javascript">
+          document.write('Fork magepwa vs ' + globalData.version + ' ');
+        </script>
+        on <a title="magepwa" href="https://github.com/listingslab/magepwa" target="_blank">Github</a>
+      </small>
+    </footer>
+
+    <script src="magepwa.js"></script>
+
+  </body>
+</html>

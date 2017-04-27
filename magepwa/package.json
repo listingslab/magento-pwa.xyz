@@ -1,6 +1,6 @@
 {
   "name": "magento-pwa.xyz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Progressive Web App for Magento",
   "main": "src/main.js",
   "scripts": {

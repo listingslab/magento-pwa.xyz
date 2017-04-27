@@ -1,0 +1,41 @@
+/*
+Minimal Slimline CSS to be delivered first
+*/
+
+body{
+  font-family: 'Rock Salt', cursive;
+  font-size:12px;
+  background: #eee;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size:30px;
+}
+
+.magepwa-logo {
+}
+
+#magepwa {
+  background: #a2cd3d;
+  border: 2px solid #80a91e;
+  margin: 15px;
+  padding: 15px;
+  color: #eee;
+}
+
+#magepwa a, footer a, header a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer{
+  margin-top:15px;
+}
+footer a{
+  color: #222;
+}
+footer{
+  text-align: center;
+}
