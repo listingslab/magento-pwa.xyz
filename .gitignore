@@ -1,18 +1,8 @@
 # do not track these files in .git
 
-
-.idea/*
-.vagrant
-
-magento-pwa\.xyz/var/cache
-magento-pwa\.xyz/var/session
-
-\.metadata/\.plugins/com\.aptana\.core\.io/
-
-\.metadata/
-
-Aligent/
+.idea/
+.metadata/
+magento-pwa\.xyz/\.vagrant/
 
 magento-pwa\.xyz/\.project
-
 magento-pwa\.xyz/\.settings/

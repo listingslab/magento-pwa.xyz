@@ -1,0 +1,24 @@
+/**
+ * Created by PhpStorm.
+ * User: chris.dorward
+ * Date: 4/26/17
+ * Time: 12:57 PM
+ */
+
+#app {
+    font-family: verdana;
+    color: purple;
+    background: #eee;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+#app a {
+    font-weight: bold;
+    color: purple;
+    text-decoration: none;
+}
+
+#app nav ul, #app nav li{
+    list-style: none;
+    display: inline;
+}
